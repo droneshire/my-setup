@@ -1,0 +1,154 @@
+{
+    "autoDocstring.docstringFormat": "google",
+    "C_Cpp.formatting": "Default",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-8",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100"
+    ],
+    "C_Cpp.updateChannel": "Insiders",
+    "clang.executable": "clang-6.0",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": true,
+    "editor.autoIndent": "full",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        100
+    ],
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+
+
+        "*.lcm": "cpp",
+        "*.template": "jinja",
+        "*.yml": "ansible",
+        "functional": "cpp"
+    },
+    "files.exclude": {
+        "**/*.d.ts": true,
+        "**/*.pyc": true,
+        "**/*.js.map": true,
+        "**/web_apps/**/build": true,
+        "**/web_app_symlinks/*/build": true,
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/node_modules/**": true,
+        "**/.*/**": true,
+        "**/viz": true,
+        "**/vehicle": true,
+        "**/.theia*": true,
+    },
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.keymap": "alternate",
+    "latex-workshop.message.update.show": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.formatting.autopep8Args": [
+        "--global-config",
+        "${workspaceRoot}/.pep8"
+    ],
+    "python.linting.pylintEnabled": false,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "search.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "build": true,
+        ".qtcreator*": true,
+        "**/*_p.js": true,
+        "**/*_p.ts": true,
+        "**/*_t.js": true,
+        "**/*_t.ts": true,
+        "**/.theia*": true,
+
+    },
+    "editor.suggestSelection": "first",
+    "gitlens.views.repositories.files.layout": "list",
+    "editor.wordWrapColumn": 100,
+    "editor.wrappingIndent": "indent",
+    "breadcrumbs.enabled": true,
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.fontSize": 13,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        "editorOverviewRuler.infoForeground": "#00000000"
+    },
+    "cSpell.userWords": [
+        "Barcode",
+        "CMAKE",
+        "WIFI",
+        "angacc",
+        "barcodes",
+        "eigen",
+        "odoo",
+        "overrides",
+        "pylint",
+        "recurse",
+        "rerun",
+        "sympc",
+        "utime"
+    ],
+    "cSpell.words": [
+        "angacc",
+        "angvel",
+        "deps",
+        "in",
+        "isfile",
+        "module"
+    ],
+    "cSpell.ignoreWords": [
+        "cmakelists"
+    ],
+    "explorer.confirmDelete": false,
+    "cmake-tools-helper.cmake_download_path": "/home/ross/.vscode/extensions/maddouri.cmake-tools-helper-0.2.1/cmake_download",
+    "editor.fontSize": 15,
+    "cmake.configureOnOpen": false,
+    "python.languageServer": "Jedi",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.guides.indentation": true,
+    "git.autofetch": true,
+    "[python]": {
+    },
+    "window.zoomLevel": -1
+}
