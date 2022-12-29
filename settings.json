@@ -27,7 +27,6 @@
     "files.associations": {
 
 
-        "*.lcm": "cpp",
         "*.template": "jinja",
         "*.yml": "ansible",
         "functional": "cpp"
@@ -46,9 +45,6 @@
         "**/build/**": true,
         "**/node_modules/**": true,
         "**/.*/**": true,
-        "**/viz": true,
-        "**/vehicle": true,
-        "**/.theia*": true,
     },
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
