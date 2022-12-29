@@ -6,7 +6,7 @@
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
         "--line-length",
-        "100"
+        "88"
     ],
     "C_Cpp.updateChannel": "Insiders",
     "clang.executable": "clang-6.0",
@@ -21,7 +21,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [
-        100
+        88
     ],
     "files.autoSave": "afterDelay",
     "files.associations": {
