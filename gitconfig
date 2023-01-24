@@ -8,6 +8,7 @@
 	editor = vim
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	pager = delta
+	pager = /usr/bin/less
 [web]
 	browser = google-chrome
 [rerere]
@@ -215,7 +216,7 @@
 	ss = stash save
 	ssk = stash save -k
 	sw = stash show
-	st = !git stash list | wc -l 2>/dev/null | grep -oEi '[0-9][0-9]*'
+	st = status
 	#############
 	t = tag
 	td = tag -d
@@ -256,8 +257,19 @@
 	theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
 	subrepo = !sh -c 'git filter-branch --prune-empty --subdirectory-filter $1 master' -
 	human = name-rev --name-only --refs=refs/heads/*
+	co = checkout
+	ci = commit
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	visual = !gitk
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
